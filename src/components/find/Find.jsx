@@ -34,10 +34,10 @@ const Find = () => {
   return (
     <div className={styles.find}>
       <div className={styles.heading}>
-        <h1>Find yours</h1>
+        <h1>Find your friends</h1>
         <div className={styles.text_bg}>
           <p>
-            <span>Explore the world's largest character sharing market</span>
+            <span>Explore the world's largest character place</span>
           </p>
         </div>
       </div>

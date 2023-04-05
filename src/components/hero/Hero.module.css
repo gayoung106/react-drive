@@ -113,7 +113,7 @@ form .input_text {
 
   .search_btn .btn:hover {
     background-color: #076f5f;
-    transition: 1s;
+    transition: background-color 1s;
   }
 
   .icon {

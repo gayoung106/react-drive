@@ -7,23 +7,14 @@ const Hero = () => {
     <div className={styles.hero}>
       <form>
         <div className={styles.text}>
-          <label>Where</label>
+          <label>Name</label>
           <input
             className={styles.input_text}
             type="text"
-            placeholder="Search Location"
+            placeholder="Search Friends"
           />
         </div>
-        <div className={styles.from}>
-          <span className={styles.border}></span>
-          <label>From</label>
-          <input type="date" />
-        </div>
-        <div className={styles.until}>
-          <span className={styles.border}></span>
-          <label>Until</label>
-          <input type="date" />
-        </div>
+
         <div className={styles.search_btn}>
           <AiOutlineSearch className={styles.icon} />
           <button className={styles.btn}>검색</button>
