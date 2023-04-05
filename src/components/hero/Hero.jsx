@@ -4,11 +4,15 @@ import { AiOutlineSearch } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <div className={styles.here}>
+    <div className={styles.hero}>
       <form>
         <div className={styles.text}>
           <label>Where</label>
-          <input type="text" placeholder="Search Location" />
+          <input
+            className={styles.input_text}
+            type="text"
+            placeholder="Search Location"
+          />
         </div>
         <div className={styles.from}>
           <span className={styles.border}></span>
@@ -21,7 +25,8 @@ const Hero = () => {
           <input type="date" />
         </div>
         <div className={styles.search_btn}>
-          <button></button>
+          <AiOutlineSearch className={styles.icon} />
+          <button className={styles.btn}>검색</button>
         </div>
       </form>
     </div>
