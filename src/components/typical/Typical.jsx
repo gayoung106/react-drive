@@ -1,0 +1,22 @@
+import React from "react";
+import styles from "./Typical.module.css";
+import Character from "../../img/sanrio.png";
+
+const Typical = () => {
+  return (
+    <div className={styles.character}>
+      <div className={styles.left}>
+        <img src={Character} alt="/" />
+      </div>
+      <div className={styles.info}>
+        <h2>
+          Find your<span> perfect Sanrio friends</span>
+        </h2>
+        <p>Sanrio will always be by your side and be your perfect friend.</p>
+        <button>SANRIO</button>
+      </div>
+    </div>
+  );
+};
+
+export default Typical;

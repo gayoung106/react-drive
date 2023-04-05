@@ -1,0 +1,61 @@
+.character {
+  max-width: 1040px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1rem;
+}
+
+.character img {
+  max-width: 512px;
+}
+
+.character h2 {
+  padding-top: 30%;
+}
+
+.character span {
+  color: #593cfb;
+}
+
+.character p {
+  color: #1a1d53;
+  padding: 0.5rem 0.2rem;
+}
+
+.character button {
+  background-color: #593cfb;
+  color: #f5f5f5;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 12px 18px;
+  border: none;
+}
+
+.character button:hover {
+  background-color: #4733b7;
+  transition: background-color 1s;
+}
+
+.info {
+  padding: 0 40px;
+}
+@media screen and (max-width: 920px) {
+  .character {
+    grid-template-columns: 1fr;
+  }
+
+  .character img {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .character .left {
+    display: flex;
+    justify-content: center;
+  }
+
+  .character h2 {
+    padding-top: 10%;
+  }
+}

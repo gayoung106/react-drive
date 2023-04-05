@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import Card from "./Card";
-import sanrio from "../../img/sanrio.png";
+
 import kuromi from "../../img/kuromi.png";
 import mymelody from "../../img/mymelody.png";
 import pochaco from "../../img/pochaco.png";
@@ -18,7 +18,6 @@ import littletwinstars from "../../img/littletwinstars.png";
 import dingguridays from "../../img/dingguridays.png";
 
 const cards = [
-  { src: sanrio, name: "SANRIO CHARACTER" },
   { src: kuromi, name: "KUROMI" },
   { src: mymelody, name: "MY MELODY" },
   { src: pochaco, name: "POCHACO" },
