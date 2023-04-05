@@ -13,6 +13,11 @@
   text-align: center;
 }
 
+span {
+  font-weight: 700;
+  color: #1a1d53;
+}
+
 .text_bg {
   background-color: #85fae8;
   height: 30px;
@@ -33,7 +38,6 @@
 }
 
 .card {
-  /* width: 50%; */
   margin: 100px 0;
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -45,8 +49,4 @@
   border-top-left-radius: 10px;
   height: 200px;
   object-fit: cover;
-}
-.swiper-container .swiper-button-prev,
-.swiper-container .swiper-button-next {
-  color: red !important;
 }

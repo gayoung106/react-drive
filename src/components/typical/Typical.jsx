@@ -10,10 +10,10 @@ const Typical = () => {
       </div>
       <div className={styles.info}>
         <h2>
-          Find your<span> perfect Sanrio friends</span>
+          Find your<span> perfect GAZERO friends</span>
         </h2>
-        <p>Sanrio will always be by your side and be your perfect friend.</p>
-        <button>SANRIO</button>
+        <p>GAZERO will always be by your side and be your perfect friend.</p>
+        <button>GAZERO</button>
       </div>
     </div>
   );

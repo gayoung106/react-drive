@@ -10,6 +10,7 @@ import Logo from "../../img/logo.jpg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+
   return (
     <header className={styles.navbar}>
       <img src={Logo} alt="/" />
@@ -19,9 +20,6 @@ const Navbar = () => {
             nav ? [styles.menu, styles.active].join(" ") : [styles.menu]
           }
         >
-          <li>
-            <a href="/">Learn More</a>
-          </li>
           <li>
             <a href="/">LogIn</a>
           </li>

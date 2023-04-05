@@ -37,7 +37,10 @@ const Find = () => {
         <h1>Find your friends</h1>
         <div className={styles.text_bg}>
           <p>
-            <span>Explore the world's largest character place</span>
+            {" "}
+            This is
+            <span> GAZERO </span>
+            world
           </p>
         </div>
       </div>

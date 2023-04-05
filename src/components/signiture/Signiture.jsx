@@ -26,7 +26,7 @@ const Signiture = () => {
   return (
     <div className={styles.signiture}>
       <div className={styles.heading}>
-        <h2>Signiture Sanrio</h2>
+        <h2>Signiture GAZERO</h2>
         <div className={styles.text_bg}>
           <p>
             <span>Select your friends.</span>
