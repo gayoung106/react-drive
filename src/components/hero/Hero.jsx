@@ -26,7 +26,9 @@ const Hero = ({ searchQuery, setSearchQuery }) => {
 
         <div className={styles.search_btn}>
           <AiOutlineSearch className={styles.icon} />
-          <button className={styles.btn}>검색</button>
+          <button type="submit" className={styles.btn}>
+            검색
+          </button>
         </div>
       </form>
     </div>

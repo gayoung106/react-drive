@@ -24,6 +24,12 @@
   display: none;
 }
 
+.icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
 @media (max-width: 720px) {
   .mobile_btn {
     display: block;
@@ -46,6 +52,10 @@
     background-color: #0ac5a8;
     z-index: 10;
     transition: left 1s;
+  }
+
+  .active .menu {
+    display: flex;
   }
 
   .active {

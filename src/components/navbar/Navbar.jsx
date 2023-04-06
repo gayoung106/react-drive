@@ -21,10 +21,13 @@ const Navbar = () => {
           <li>
             <a href="/">SignUp</a>
           </li>
+          <div onClick={() => setNav(!nav)} className={styles.mobile_btn}>
+            {nav ? <AiOutlineClose size={25} className={styles.icon} /> : ""}
+          </div>
         </ul>
       </nav>
       <div onClick={() => setNav(!nav)} className={styles.mobile_btn}>
-        {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
+        {nav ? " " : <AiOutlineMenu size={25} />}
       </div>
     </header>
   );
