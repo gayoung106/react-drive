@@ -1,6 +1,7 @@
 .find {
   max-width: 1040px;
   margin: auto;
+  padding-bottom: 100px;
 }
 
 .heading h1 {
@@ -49,4 +50,9 @@ span {
   border-top-left-radius: 10px;
   height: 200px;
   object-fit: cover;
+}
+
+p {
+  font-size: 13px;
+  text-align: center;
 }
